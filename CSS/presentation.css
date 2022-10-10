@@ -1,0 +1,422 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+    ;
+}
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/885515822817234954/945231574700531712/man-made-road_bG5naGiUmZqaraWkpJRma21lrWZlamU.png?width=961&height=601);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 70%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+.main .content .sponsor1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.main .content .sponsor1 .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.main .content .sponsor1 .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 550px) {
+    .main .content .sponsor1 .right img {
+        height: 400px;
+    }
+}
+
+p {
+    font-size: 15px;
+}
+
+.slideimage {
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    border-width: 1000px;
+    border-color: cyan;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+button {
+    border-left: 200px;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+
+/*css pour slide manuel*/
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #40D3DC;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+
+/*css Pour navigation automatique*/
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: #40D3DC;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: #40D3DC;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: #40D3DC;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background: #40D3DC;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+    border-bottom: 15px solid #ffffff;
+}
+
+h2 {
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Abril Fatface', Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    flex-direction: row;
+}
+
+main-header {
+    background: rgb(92, 92, 175);
+    color: white;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+
+nav ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+f .main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:530px) {
+    .navigation-manual {
+        position: absolute;
+        width: 450px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .slide img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .slide img {
+        width: 390px;
+        height: 500px;
+    }
+}
+
+
+/* CSS Machine Ã  Ã©crire */
+
+.typewriter-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.typewriter p {
+    margin-top: 100px;
+    font-size: 65px;
+    margin-left: 550px;
+    color: #dadada;
+    font-weight: bolder;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(24);
+}
+
+.typewriter p::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #dadada;
+    right: 0;
+    top: 0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* JS EFFECT */
+
+ ::before,
+ ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3px;
+    background: #dadada;
+    right: -15px;
+    top: 0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .typewriter p {
+        font-size: 55px;
+        margin-left: 20px;
+        color: #dadada;
+        font-weight: lighter;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(24);
+    }
+}
+
+@media screen and (max-width:400px) {
+    .typewriter p {
+        font-size: 20px;
+        margin-left: 20px;
+        color: #dadada;
+        font-weight: lighter;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(24);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .typewriter p {
+        font-size: 40px;
+        margin-left: 20px;
+        color: #dadada;
+        font-weight: lighter;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(24);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .typewriter p {
+        margin-bottom: 20px;
+        font-size: 35px;
+        margin-left: 20px;
+        color: #dadada;
+        font-weight: lighter;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(24);
+    }
+}
+
+@media screen and (max-width:380px) {
+    .typewriter p {
+        margin-bottom: 20px;
+        font-size: 50px;
+        margin-left: 10px;
+        color: #dadada;
+        font-weight: lighter;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(24);
+    }
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/885515822817234954/945231574700531712/man-made-road_bG5naGiUmZqaraWkpJRma21lrWZlamU.png?width=961&height=601);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+p.indice {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(19, 135, 230);
+    font-size: 20px;
+}
+
+.form {
+    width: 500px;
+    margin: 38px auto;
+}
+
+.form .search {
+    position: relative;
+    width: 500px;
+    height: 60px;
+}
+
+.form .search .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.form .search .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.form .search .btn:hover {
+    background: #708bd2;
+}
+
+.form .search .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.form .search .input {
+    border-radius: 50px;
+}
+
+.form .search .btn {
+    width: 125px;
+    height: 45px;
+    top: 8px;
+    right: 5px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .search .btn {
+    border-radius: 25px;
+}
+
+.search_wrap.search_wrap_5 .search .input,
+.form .search .input {
+    padding-right: 145px;
+}

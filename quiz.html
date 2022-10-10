@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Formulaire</title>
+    <link rel="icon" href="escape.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/quiz.css">
+    <meta name="description" content="Cette page vous permet de participer à noter quiz sur le code de la route.">
+    <meta name="keyword" content="escape game,game,escape,jeu,enigme,stratégie,quiz">
+</head>
+
+<body>
+    <div class="grid">
+        <div id="quiz" class="centered grid__col--8">
+            <h1>Code de la route</h1>
+            <h2 id="question" class="headline-secondary--grouped"></h2>
+            <h3 id="score"></h3>
+
+            <p id="choice0"></p>
+            <button id="guess0" class="btn--default">Sélectionner (1)</button>
+
+            <p id="choice1"></p>
+            <button id="guess1" class="btn--default">Sélectionner (2)</button>
+            <p id="choice2"></p>
+            <button id="guess2" class="btn--default">Sélectionner (3)</button>
+            <p id="choice3"></p>
+            <button id="guess3" class="btn--default">Sélectionner (4)</button>
+
+            <footer>
+                <p id="progress">Question x sur y</p>
+
+
+            </footer>
+        </div>
+
+        <div id="zonehaute">
+            <div id="cercle"></div>
+        </div>
+
+
+
+        <script src="JS/timer.js"></script>
+        <script src="JS/quiz.js"></script>
+    </div>
+</body>
+
+</html>

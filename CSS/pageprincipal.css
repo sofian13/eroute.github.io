@@ -1,0 +1,81 @@
+body,
+html {
+    background-image: url(https://media.discordapp.net/attachments/924661694612013096/945240757164470292/1560888503panneaux.png?width=1018&height=573);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.Section_top {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.content h1 span {
+    color: #111;
+}
+
+.content a {
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.content a:hover {
+    background: #034e88;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .content a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .video-responsive iframe {
+        margin-top: 400px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.video-responsive iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: -300px;
+}
+
+@media screen and (max-width: 400px) {
+    .video-responsive iframe {
+        margin-top: -250px;
+        width: 300px;
+        height: 200px;
+    }
+}

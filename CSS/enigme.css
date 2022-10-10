@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/813457131692490793/943461859871301672/unknown.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Optima, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
+
+.piege {
+    height: 300px;
+}
+
+.indice {
+    color: rgb(255, 255, 255);
+}
+
+.guessSubmit {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+img.insta {
+    padding: 10px;
+}
+
+#liencacher {
+    display: none;
+}
+
+.header {
+    width: 1000px;
+    padding: 20px;
+    background: #7690da;
+    margin: 25px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header p {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form {
+    width: 500px;
+    margin: 38px auto;
+}
+
+.form .search {
+    position: relative;
+    width: 500px;
+    height: 60px;
+}
+
+.form .search .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.form .search .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.form .search .btn:hover {
+    background: #708bd2;
+}
+
+.form .search .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.form .search .input {
+    border-radius: 50px;
+}
+
+.form .search .btn {
+    width: 125px;
+    height: 45px;
+    top: 8px;
+    right: 5px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .search .btn {
+    border-radius: 25px;
+}
+
+.search_wrap.search_wrap_5 .search .input,
+.form .search .input {
+    padding-right: 145px;
+}
